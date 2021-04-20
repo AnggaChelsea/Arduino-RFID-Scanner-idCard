@@ -4,6 +4,11 @@
 #define RST_PIN 9
 RFID rfid(SS_PIN,RST_PIN);
 
+//183 154 242 216 white card
+//140 178 95 34 blue key
+
+
+
 void setup() {
   Serial.begin(9600);                       
   SPI.begin();
